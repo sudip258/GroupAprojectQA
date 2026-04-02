@@ -1,0 +1,11 @@
+class locate():
+    sign_in_xpath ='/html/body/main/header/nav/div/div/div[1]/div[2]/div[1]/div/a/span'
+    email_xpath='/html/body/main/section/div/div/div/section/div/section/form/div/div[1]/div[1]/input'
+    password_xpath='/html/body/main/section/div/div/div/section/div/section/form/div/div[2]/div[1]/div/input'
+    login_button_xpath='/html/body/main/section/div/div/div/section/div/section/form/footer/button'
+    search_xpath='/html/body/main/header/div[2]/div/div[1]/div[2]/div[2]/form/input[2]'
+    hummingbird_xpath='/html/body/main/section/div/div/div/section/section/section[1]/div/div[2]/article/div/div[1]/a/picture/img'
+    addtocart_xpath='/html/body/main/section/div/div/div/section/div[1]/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/button'
+    proceedtocheckout_xpath='/html/body/div[1]/div/div/div[2]/div/div[2]/div/div/a'
+    continueshopping_xpath='/html/body/div[1]/div/div/div[2]/div/div[2]/div/div/button'
+    cart_xpath='/html/body/main/header/nav/div/div/div[1]/div[2]/div[2]/div/div/a/span[1]'
