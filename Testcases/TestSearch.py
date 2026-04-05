@@ -17,7 +17,7 @@ class MyTestCase(unittest.TestCase):
         self.driver.maximize_window()
         self.driver.get("https://qap.bishalkarki.com/")
         self.lp = Loginpage.Loginpage(self.driver)
-        self.lp.loginfunction("deeyagautam55@gmail.com", "deeya321@#")
+        self.lp.loginfunction("deeyagautam55@gmail.com", "diya@321#")
         self.search=Searchpage(self.driver)
 
     def test_search1(self):
